@@ -1,0 +1,54 @@
+{
+	"language": "python3",
+	"name": "jk_pwdgen",
+	"version": "0.2020.9.15",
+	"meta": {
+		"description": "This python module provides support for strong password generation.",
+		"keywords": [
+			"password",
+			"rng"
+		],
+		"license": "Apache 2.0",
+		"development_status": "alpha",
+		"authors": [
+			{
+				"name": "Jürgen Knauth",
+				"email": "pubsrc@binary-overflow.de"
+			}
+		],
+		"wiki": {
+			"page": "DevDocs:jk_pwdgen"
+		}
+	},
+	"repositories": [
+		{
+			"type": "github",
+			"user": "jkpubsrc",
+			"project": "python-module-jk-pwdgen",
+			"devon_publish": false
+		},
+		{
+			"type": "pypi",
+			"project": "jk_pwdgen",
+			"devon_publish": false
+		}
+	],
+	"source": {
+		"packages": [
+			"jk_pwdgen"
+		],
+		"extra_data_files": [
+		],
+		"extra_binary_files": [
+			"bin/pwdgen.py"
+		]
+	},
+	"requirements": {
+		"python_packages": [
+			"jk_argparsing"
+		],
+		"python_packages_dev": [
+		]
+	}
+}
+
