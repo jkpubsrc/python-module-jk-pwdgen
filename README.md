@@ -9,7 +9,7 @@ This python module provides support for strong password generation.
 Information about this module can be found here:
 
 * [github.com](https://github.com/jkpubsrc/python-module-jk-pwdgen)
-* [pypi.python.org](https://pypi.python.org/pypi/jk_pwdgen)
+* [pypi.org](https://pypi.org/project/jk-pwdgen/)
 
 Why this module?
 ----------------
