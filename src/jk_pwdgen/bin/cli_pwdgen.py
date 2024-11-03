@@ -97,7 +97,7 @@ class MainApp(jk_pwdgen.AbstractMultiCmdCLIApp):
 	## Public Methods
 	################################################################################################################################
  
-	def runImpl(self, ctx:jk_systools.CLIRunCtx) -> int:
+	def runImpl(self, ctx:jk_pwdgen.CLIRunCtx) -> int:
 		pwdGen = jk_pwdgen.PasswordGenerator(
 			length = ctx.parsedArgs.optionData["length"],
 			minNumberOfNumericChars = ctx.parsedArgs.optionData["minNumberOfNumericChars"],
@@ -110,7 +110,7 @@ class MainApp(jk_pwdgen.AbstractMultiCmdCLIApp):
 			print(pwdGen.generate())
 		print()
 
-		return jk_systools.IExitCodes.SUCCESS
+		return jk_pwdgen.IExitCodes.SUCCESS
 	#
 
 #
@@ -123,7 +123,7 @@ class MainApp(jk_pwdgen.AbstractMultiCmdCLIApp):
 
 
 def main():
-	appExitCode = jk_systools.IExitCodes.ERR_INTERNAL
+	appExitCode = jk_pwdgen.IExitCodes.ERR_INTERNAL
 	try:
 		appExitCode = MainApp().run()
 	except jk_logging.ExceptionInChildContextException as ee:
