@@ -4,7 +4,7 @@
 Introduction
 ------------
 
-This python module provides support for strong password generation.
+This python module provides support for password generation.
 
 Information about this module can be found here:
 
