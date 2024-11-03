@@ -7,4 +7,4 @@
 
 * 2024-11-03:
 	* Migrated to pyproject.toml
-
+	* Fixed: Typo

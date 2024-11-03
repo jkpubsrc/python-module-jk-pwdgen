@@ -1,7 +1,7 @@
 {
 	"language": "python3",
 	"name": "jk_pwdgen",
-	"version": "0.2024.11.3.2",
+	"version": "0.2024.11.3.3",
 	"meta": {
 		"description": "This python module provides support for password generation.",
 		"keywords": [

@@ -5,7 +5,6 @@ import typing
 import sys
 
 import jk_typing
-import jk_systools
 import jk_logging
 
 import jk_pwdgen
@@ -31,7 +30,7 @@ class MainApp(jk_pwdgen.AbstractMultiCmdCLIApp):
 
 		super().__init__(
 			appFilePath = __file__,
-			appVersion = jk_systools.__version__,
+			appVersion = jk_pwdgen.__version__,
 			appDescription = "Generate passwords.",
 		)
 
