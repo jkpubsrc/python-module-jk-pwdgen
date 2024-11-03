@@ -1,9 +1,9 @@
 {
 	"language": "python3",
 	"name": "jk_pwdgen",
-	"version": "0.2020.9.15",
+	"version": "0.2024.11.3.2",
 	"meta": {
-		"description": "This python module provides support for strong password generation.",
+		"description": "This python module provides support for password generation.",
 		"keywords": [
 			"password",
 			"rng"

@@ -17,7 +17,7 @@ import jk_pwdgen
 
 
 
-class MainApp(jk_systools.AbstractMultiCmdCLIApp):
+class MainApp(jk_pwdgen.AbstractMultiCmdCLIApp):
 
 	################################################################################################################################
 	## Constructor
